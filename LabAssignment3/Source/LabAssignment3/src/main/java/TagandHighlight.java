@@ -36,7 +36,7 @@ public class TagandHighlight {
     static List<Long> timeStamp = new ArrayList<Long>();
     static List<Double> mainPoints = new ArrayList<Double>();
     public static void main(String args[]) throws IOException, InterruptedException {
-        String path = "data/Swimming.mkv";
+        String path = "data/";
         //FindingClarifaiTags t = new FindingClarifaiTags();
         Frames(path);
         MainFrames();
